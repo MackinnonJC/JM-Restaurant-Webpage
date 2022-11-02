@@ -1,0 +1,229 @@
+<!doctype html>
+
+<html lang="en">
+	<head>
+		<title>Papa Jacob's Pizzeria</title>
+		<style>
+			h1 {
+				font-family: 'Spartan';
+				color: #c94949;
+				width: 90%;
+			}
+			.column1 h2 {
+				font-family: 'Permanent Marker';
+				font-size: 35px;
+				color: #FFFFFF;
+			}
+			li {
+				font-family: 'Spartan';
+				font-size: 20px;
+				color: #FFFFFF;
+			}
+			.column2 h2 {
+				font-family: 'Permanent Marker';
+				font-size: 35px;
+				color: #FFFFFF;
+			}
+			.column3 h2 {
+				font-family: 'Permanent Marker';
+				font-size: 35px;
+				color: #000000;
+			}
+			p {
+				font-family: 'Spartan';
+				color: #c94949;
+				font-size: 20px;
+			}
+			dl {
+				padding-top: 10px;
+				font-family: 'Spartan';
+				color: #FFFFFF;
+				font-size: 16px;
+				padding-bottom: 10px;
+				background-color: #a84242;
+			}
+			.column2 dl {
+				background-color: #d98686;
+			}
+			.column3 dl {
+				background-color: #fff9a8;
+				color: #000000;
+			}
+			dd {
+				padding-bottom: 20px;
+			}
+			.topbar {
+				display: block;
+				padding: 5px 20px 80px 20px;
+				background-color: #FFFFFF;
+				top: 0px;
+				left: 0px;
+				position: fixed;
+				z-index: 1;
+				width: 100%;
+				height: 0px;
+				box-shadow: 0px 10px 30px 10px rgba(0, 0, 0, 0.3);
+				overflow-y: hidden;
+			}
+			.column1 {
+				text-align:center;
+				width: 50%;
+				padding: 10px;
+			}
+			.column2 {
+				text-align:center;
+				width: 50%;
+				padding: 10px;
+			}
+			.column3 {
+				text-align:center;
+				width: 50%;
+				padding: 10px;
+			}
+			.toppings {
+				float: left;
+				width: 25%;
+			}
+			.button {
+				display: inline-block;
+				background-color: #c94949;
+				font-size:50px;
+				color: #FFFFFF;
+				width: 50px;
+				height: 20px;
+				text-align: center;
+				margin-left: 40%;
+				width: 20%;
+				padding: 10px 0px 80px 0px;
+				border: none;
+				font-family: 'Permanent Marker';
+				transition: 0.3s;
+			}
+			.button:hover {
+				background-color: #a63d35;
+			}
+			.center {
+				display: block;
+				margin-left: 25%;
+				width: 50%;
+			}
+		</style>
+		<link href="https://fonts.googleapis.com/css?family=Spartan&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+	</head>
+	<body style="text-align:center;">
+		
+		<div class="topbar">
+			<img src = "images/logo.jpg" alt="Logo" style="float:left;width:7.5%;">
+			<button class="button" onclick="window.location.href = 'index.html';" style="float:right;padding:5px 0px 70px 0px;font-size:40px;margin-right:2%">Home</button>
+			<h1 style="width:50%;">Papa Jacob's Pizzeria</h1>
+		</div>
+		<div style="text-align:center;width:100%;padding-top:5%;">
+			<img src="images/logo.jpg" alt="Logo" style="width:20%;">
+			<h1 style="margin-left:5%;font-size:40px;">Menu</h1>
+		</div>
+		
+		<div class="column1" style="background-color:#c94949;margin-left:25%;">
+			
+			<h2>Regular Pizza Options</h2>
+			<dl>
+				<dt>Cheese Pizza (Full) - <i>$8.99 small, $10.99 medium, $12.99 large</i></dt>
+				<dd>~ Papa Jacob's signature flavored pizza</dd>
+				
+				<dt>Pepperoni Pizza (Full) - <i>$9.99 small, $11.99 medium, $13.99 large</i></dt>
+				<dd>~ Topped with exquisite pepperoni</dd>
+				
+				<dt>Veggie Pizza (Full) - <i>$9.99 small, $11.99 medium, $13.99 large</i></dt>
+				<dd>~ Contains multiple nutritious vegetables</dd>
+				
+				<dt>Sausage Topped Pizza (Full) - <i>$9.99 small, $11.99 medium, $13.99 large</i></dt>
+				<dd>~ Topped with natural sausages</dd>
+				
+				<dt>Pineapple on Pizza (Full) - <i>$9.99 small, $11.99 medium, $13.99 large</i></dt>
+				<dd>~ Contains rich, luxurious pineapples to go on your pizza</dd>
+				
+				<dt>Slice of Pizza (No topping) - <i>$2.99 medium, $3.49 large</i></dt>
+				<dd>~ A slice of Papa Jacob's signature pizza</dd>
+				
+				<dt>Slice of Pizza (With topping) - <i>$3.49 medium, $3.99 large</i></dt>
+				<dd>~ A slice of any topping pizza you desire</dd>
+				
+				<dt>* These options may contain gluten. Additionally, let your chef know if you or your child(ren) have any food allergies.</dt>
+				<dd></dd>
+			</dl>
+		</div>
+		
+		<!--Kid Options-->
+		<div class="column2" style="background-color:#d97e7e;height:640px;margin-left:25%;">
+			<h2>Kids' Options</h2>
+			<dl>
+				<dt>Cheese Pizza Slice (No Topping) - <i>$2.49 small</i></dt>
+				<dd>~ Papa Jacob's signature flavored pizza, fit for kids of young ages</dd>
+				
+				<dt>Cheese Pizza Slice (Topping) - <i>$2.99 small</i></dt>
+				<dd>~ Any kind of pizza topping, made to fit for kids of young ages</dd>
+				
+				<dt>Hot Dogs and Fries - <i>$3.99</i></dt>
+				<dd>~ Scrumptious hot dogs and delicious fries fit best for kids</dd>
+				
+				<dt>Mac and Cheese - <i>$3.49</i></dt>
+				<dd>~ Papa Jacob's spin on macaroni and cheese: fit best for kids</dd>
+				
+				<dt>Papa Jacob's Burger (Cheese or Ham) - <i>$2.99</i></dt>
+				<dd>~ A simplistic burger to fit the situation.</dd>
+				
+				<dt>* These options may contain gluten. Additionally, let your chef know if you or your child(ren) have any food allergies.</dt>
+				<dd></dd>
+				
+			</dl>
+			<img src="images/MenuPicture1.jpg" alt="Pineapple pizza" style = "float:left;width:29%;">
+			<img src="images/MenuPicture2.jpg" alt="Veggie pizza" style="float:right;width:29%;">
+		</div>
+		<img class="center" src="images/MenuPicture3.jpg" alt="Pepperoni pizza" style="width:51.35%;">
+		<!--Drinks-->
+		<div class="column1" style="background-color:#c94949;margin-left:25%;">
+			
+			<h2>Drinks</h2>
+			<dl>
+				<dt>Water - <i>$0.99</i></dt>
+				<dd>~ Poland Springs Water</dd>
+				
+				<dt>Milk - <i>$1.49</i></dt>
+				<dd>~ Papa Jacob's exquisite milk selection</dd>
+				
+				<dt>Orange Juice - <i>$1,49</i></dt>
+				<dd>~ Contains nutritious oranges</dd>
+				
+				<dt>Apple Juice - <i>$1.49</i></dt>
+				<dd>~ Lovely option for kids! Also contains nutritious apples</dd>
+				
+			</dl>
+		</div>
+		<!--Specials-->
+		<div class="column3" style="background-color:#fff459;height:520px;margin-left:25%;">
+			<h2>Specials</h2>
+			<dl>
+				<dt>Papa Jacobs Signature Combo - <i>$13.99</i></dt>
+				<dd>~ Papa Jacob's cheese pizza with a side of fruits and vegetables</dd>
+				
+				<dt>Rectangular Pizza - <i>$11.99</i></dt>
+				<dd>~ Regular pizza, but instead of being circular, it's rectangular!</dd>
+				
+				<dt>Macaroni Pizza - <i>$12.99</i></dt>
+				<dd>~ A normal pizza, but it's topped with macaroni!</dd>
+				
+				<dt>Supreme Pasta - <i>$8.99</i></dt>
+				<dd>~ Exquisite pasta mixed with macaroni and cheese to create a nice blend! *Yes, we are aware that pasta is very similar to macaroni.*</dd>
+				
+				<dt>Full Course Meal - <i>$18.99</i></dt>
+				<dd>~ A burger, lots of fruits and vegetables, a small pizza, and a bunch of drinks!</dd>
+				
+				<dt>* These options may contain gluten. Additionally, let your chef know if you or your child(ren) have any food allergies.</dt>
+				<dd></dd>
+				
+			</dl>
+			
+		</div>
+		<img class="center" src="images/MenuPicture4.jpg" alt="Rectangular pizza" style="width:32%;">
+	</body>
+</html>
