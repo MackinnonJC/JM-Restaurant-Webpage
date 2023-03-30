@@ -1,0 +1,14 @@
+
+.solid {
+    -fx-background-color: #fff;
+    -fx-border-radius: 18px;
+    -fx-background-radius: 18px;
+    -fx-border-color: #00000033;
+    -fx-border-width: 3px;
+}
+
+.backgroundPane {
+    -fx-background-color: linear-gradient(from 50% 100% to 50% 0%, #57eb8d 0%, #7dffc4 100%);
+    -fx-border-color: #5ba;
+    -fx-border-width: 0px 0px 0px 4px;
+}

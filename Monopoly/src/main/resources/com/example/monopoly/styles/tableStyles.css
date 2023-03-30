@@ -1,0 +1,29 @@
+
+.table-view {
+    -fx-background-color: transparent;
+}
+
+.table-view .column-header {
+    -fx-font-size: 16px;
+    -fx-background-color: #7dffc4;
+}
+.table-view .table-row-cell {
+    -fx-font-size: 16px;
+    -fx-text-fill: #fff;
+}
+.player1 {
+    -fx-background-color: blue;
+}
+.player2 {
+    -fx-background-color: red;
+}
+.player3 {
+    -fx-background-color: green;
+}
+.player4 {
+    -fx-background-color: purple;
+}
+
+.balance-column .table-row-cell {
+    -fx-text-fill: green;
+}

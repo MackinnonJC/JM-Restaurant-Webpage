@@ -1,0 +1,46 @@
+
+.mainText {
+    -fx-font-size: 22px;
+    -fx-text-fill: #091547;
+    -fx-font-family: 'Franklin Gothic Demi';
+}
+
+/*
+    Category 1: Red
+    Category 2: Yellow
+    Category 3: Green
+    Category 4: Blue
+    Category 5: Brown
+    Category 6: Light Blue
+    Category 7: Magenta
+    Category 8: Orange
+*/
+
+.textColorCategory1 {
+    -fx-text-fill: red;
+}
+.textColorCategory2 {
+    -fx-text-fill: yellow;
+}
+.textColorCategory3 {
+    -fx-text-fill: green;
+}
+.textColorCategory4 {
+    -fx-text-fill: blue;
+}
+.textColorCategory5 {
+    -fx-text-fill: brown;
+}
+.textColorCategory6 {
+    -fx-text-fill: lightblue;
+}
+.textColorCategory7 {
+    -fx-text-fill: magenta;
+}
+.textColorCategory8 {
+    -fx-text-fill: orange;
+}
+
+.withLargerText {
+    -fx-font-size: 28px;
+}

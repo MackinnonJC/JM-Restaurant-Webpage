@@ -1,0 +1,66 @@
+
+.rollButton {
+    -fx-background-color: #03fc5a;
+    -fx-border-radius: 24px;
+    -fx-background-radius: 24px;
+    -fx-border-color: #09d66c;
+    -fx-border-width: 4px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 48px;
+    -fx-font-family: 'Franklin Gothic Heavy';
+}
+.rollButton .text {
+    -fx-stroke: #09d66c;
+    -fx-stroke-width: 2px;
+}
+
+.propertyBuyButton {
+    -fx-background-color: #03fc5a;
+    -fx-border-radius: 24px;
+    -fx-background-radius: 24px;
+    -fx-border-color: #09d66c;
+    -fx-border-width: 3px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 32px;
+    -fx-font-family: 'Franklin Gothic Heavy';
+}
+.propertyBuyButton .text {
+    -fx-stroke: #09d66c;
+    -fx-stroke-width: 2px;
+}
+
+.propertySellButton {
+    -fx-background-color: #03b3ff;
+    -fx-border-radius: 24px;
+    -fx-background-radius: 24px;
+    -fx-border-color: #008dc9;
+    -fx-border-width: 3px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 32px;
+    -fx-font-family: 'Franklin Gothic Heavy';
+}
+.propertySellButton .text {
+    -fx-stroke: #008dc9;
+    -fx-stroke-width: 2px;
+}
+.saveButton {
+    -fx-border-radius: 6px;
+    -fx-background-radius: 6px;
+    -fx-border-width: 3px;
+    -fx-border-color: #4ddbff;
+    -fx-background-color: transparent;
+}
+.endTurnButton {
+    -fx-background-color: #ff4500;
+    -fx-border-radius: 24px;
+    -fx-background-radius: 24px;
+    -fx-border-color: #c93600;
+    -fx-border-width: 3px;
+    -fx-text-fill: #fff;
+    -fx-font-size: 32px;
+    -fx-font-family: 'Franklin Gothic Heavy';
+}
+.endTurnButton .text {
+    -fx-stroke: #c93600;
+    -fx-stroke-width: 2px;
+}
